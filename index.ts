@@ -19,7 +19,7 @@ const answers = await inquirer.prompt([
    }
 ]);
 
-if(answers.userGuessnumber=== randomNumber){
+if(answers.userGuessnumber === randomNumber){
     console.log("congratulations you guess right number.")
 
 } else{
