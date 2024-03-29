@@ -1,13 +1,13 @@
-#! usr/bin/env node 
+#!  /usr/bin/env node
 
 import inquirer from "inquirer";
 
-// //1>computer will generate  random number
-// //2.input usser for number guess
-// //3.compare users input with computer generated number
+// // //1>computer will generate  random number
+// // //2.input usser for number guess
+// // //3.compare users input with computer generated number
 
  const randomNumber = Math.floor(Math.random()* 6 + 1);
-//  console.log(randomNumber);
+ console.log(randomNumber);
 
 
 const answers = await inquirer.prompt([
@@ -23,7 +23,7 @@ if(answers.userGuessnumber === randomNumber){
     console.log("congratulations you guess right number.")
 
 } else{
-    console.log("you guess a wrong number")
+    console.log("you guess a wrong number");
 
 }
 

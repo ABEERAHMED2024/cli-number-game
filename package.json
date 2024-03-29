@@ -1,5 +1,5 @@
 {
-  "name": "@abeerahmed2024/cli-number-game",
+  "name": "@syed_abeer_ahmed/cli-number-game",
   "version": "2.0.1",
   "description": "this is a cli number gassing game",
   "main": "index.js",
@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@syed_abeer_ahmed/cli-number-game": "^2.0.1",
     "inquirer": "^9.2.16"
   },
   "devDependencies": {

@@ -1,11 +1,13 @@
 #! usr/bin/env node 
-import inquirer from "inquirer";
-// //1>computer will generate  random number
-// //2.input usser for number guess
-// //3.compare users input with computer generated number
-const randomNumber = Math.floor(Math.random() * 6 + 1);
-//  console.log(randomNumber);
-const answers = await inquirer.prompt([
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var inquirer_1 = require("inquirer");
+// // //1>computer will generate  random number
+// // //2.input usser for number guess
+// // //3.compare users input with computer generated number
+var randomNumber = Math.floor(Math.random() * 6 + 1);
+console.log(randomNumber);
+var answers = await inquirer_1.default.prompt([
     {
         name: "userGuessnumber",
         type: "number",
